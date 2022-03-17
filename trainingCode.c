@@ -28,7 +28,7 @@ int palindrome(char mot[]){
     }
   }
   return difference;
-} // mot[100] = "abcde";
+} // mot[10] = "abcde";
 
 int minmaj(char mot[]){
   int i, j, taille;
@@ -104,7 +104,6 @@ void effaceVoyelle( char mot[N], char motres[N]){
 }
 
 
-
 void supression(float tab[], int taille, int indice){
   for (; indice < taille-1; indice++){
     tab[indice]= tab[indice+1];
@@ -119,8 +118,7 @@ void insertion(float tab[],int taille, int pos, int val){
   }
 }
 
-//TP2 
-#include <stdio.h>
+//TP2 -----------------------------------------------------------------
 
 int bissextille(int annee){
     if (annee%4 == 0){
@@ -153,7 +151,6 @@ int main(){
   lendemain(1,1,2012);
   return 0;
 }
-#include <stdio.h>
 
 void supression(float tab[], int taille, int indice){
   for (; indice < taille-1; indice++){
@@ -194,7 +191,6 @@ int main(){
   return 0;
 }
 
-#include <stdio.h>
 #define N 42
 
 int nombreDeZero(int n[N][N]){
@@ -258,8 +254,7 @@ void multiplication(float A[N][N], float B[N][N], float C[N][N]){
     }
   }
 }
-
-#include <stdio.h>
+//TP3 -----------------------------------------------------------------
 
 int calculatrice(){
   float operande1, operande2, resultat;
@@ -292,7 +287,7 @@ int main(){
   printf("v = %d\n", v);
   return 0;
 }
-//----------------------------------------------------------------
+//TD13 ----------------------------------------------------------------
 
 int* fct(int init){
   int *p = NULL;
@@ -308,7 +303,6 @@ int main(){
   return 0;
 }
 
-#include <stdio.h>
 
 int joueur_virtuel (int p, int r){
   int i;
