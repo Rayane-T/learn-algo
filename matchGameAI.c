@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-void matchGame(int nMatch){
-  for (int i = 0; i < nMatch; i++){
+void matchGame(int N){
+  for (int i = 0; i < N; i++){
     printf("!");
   }
 }
